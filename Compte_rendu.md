@@ -31,9 +31,7 @@ l'option `--global` indiquer que la configuration ou l'action demandée doit s'a
 C'est réglage sont enregistrer dans ~/tp-git
 ## Partie 3 
 
-Question 3 :
-
- 1)
+### Question 3.1
 
 git status répond:
 ```
@@ -42,7 +40,7 @@ Arrêt à la limite du système de fichiers (GIT_DISCOVERY_ACROSS_FILESYSTEM n'e
 ```
 Il répond ca car le dossier n'a pas etait transformer en dépôt
 
-2)
+### Question 3.2
 
 git init a créé le dossier .git/
 
@@ -55,3 +53,25 @@ Aucun commit
 
 rien à valider (créez/copiez des fichiers et utilisez "git add" pour les suivre)
 ```
+
+### Question 3.3
+ dans le repertoire de travail
+
+### Question 3.4
+README.md ce trouve dans "branche main"
+
+### Question 3.5
+```
+Author: RaphMOULY <raphmly@gmail.com>
+Date:   Thu Oct 8 09:19:54 2026 +0200
+
+    Création du README
+```
+le hash comporte 40 caractere en hexadécimale et il représente 160 bits
+
+### Question 3.7 
+git status me décrit que le "README.md" est modifié.
+
+le + en début de ligne du git diff me montre tout les ajouts qui ont etait fait depuis le dernier git add 
+
+### Question 3.8
